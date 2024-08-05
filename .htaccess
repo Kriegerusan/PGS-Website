@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewwriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.*)$ index.php

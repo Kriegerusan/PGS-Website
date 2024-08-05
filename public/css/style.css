@@ -1,0 +1,92 @@
+/* ********** Base Styles ********** */
+
+body{
+    font-family: lato;
+    margin: 0;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    background-color: bisque;
+    box-shadow: 0px 0px 5px black;
+}
+
+a{
+    text-decoration: none;
+    color: dimgrey;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+
+    margin-top: 0;
+    height: 3em;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    border: none;
+    color: dimgrey;
+    background-color: #209be385;
+    border-radius: 5px;
+    min-height: 1.5rem;
+    min-width: 6vw;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.content-wrapper{
+    min-height: 100vh;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+
+/* ********** Footer ********** */
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 5rem;
+}
+
+footer .footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    align-items: end;
+}
+ 
+footer a i{
+    font-size: 2.5em;
+}
+
+footer ul{
+    display: flex;
+    justify-content: end;
+    gap: 2em;
+    padding-inline: 1em;
+}
+
+
+/* ********** Fonts ********** */
+
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+/* **********  ********** */

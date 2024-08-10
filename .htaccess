@@ -1,15 +1,12 @@
 RewriteEngine On
 
-RewriteCond %{REQUEST_URI} ^/myWebsite/$
-RewriteRule ^$ /myWebsite/home [R=302,L]
-
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-
-
-
 
 
 RewriteCond %{REQUEST_URI} !\.(css|js|png|jpg|gif|ttf)$
 
 RewriteRule ^(.*)$ index.php [L]
+
+RewriteCond %{REQUEST_URI} ^/mywebsite|myWebsite/$
+RewriteRule ^$ /mywebsite/home [R=302,L]

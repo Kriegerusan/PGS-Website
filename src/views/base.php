@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $title ?></title>
     <link rel='stylesheet' href='/myWebsite/public/css/style.css'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css'>
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css'> -->
+    <link rel='stylesheet' href='/myWebsite/public/fontawesome/css/all.min.css'>
+
 </head>
 
     <header>
         <nav>
             <ul>
                 <li><a href="/myWebsite/home"><i class="fa-solid fa-house"></i> HomePage</a></li>
-                <li><a href="/myWebsite/projects">Projects</a></li>
+                <li><a href="/myWebsite/projects"><i class="fa-solid fa-gamepad"></i> Projects</a></li>
             </ul>
         </nav>
     </header>
